@@ -1,7 +1,19 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: rgba(250, 235, 215, 0.228);
+    background-image: url(images/header_bg.png);
+    background-size: 650px 400px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 100px;
 }
 nav > ul{
     display: flex;
@@ -25,4 +37,32 @@ nav button{
 }
 span{
     color: orange;
+}
+.banner{
+    padding: 0px 20px 0px 150px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first{
+    font-size: 35px;
+}
+.second{
+    font-size: 55px;
+}
+.btn1{
+    background-color: bisque;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 4px;
+    margin-right: 31px;
+}
+.btn2{
+    background-color: rgba(255, 228, 196, 0.116);
+    border: 1px solid orange;
+    padding: 15px 40px;
+    border-radius: 4px;
+}
+.content{
+    max-width: 450px;
 }

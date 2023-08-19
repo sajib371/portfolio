@@ -66,3 +66,95 @@ span{
 .content{
     max-width: 450px;
 }
+.about{
+    background-color: rgba(239, 18, 209, 0.043);
+    padding: 70px;
+    border-radius: 25px;
+    margin-bottom: 80px;
+}
+main{
+    max-width: 1140px;
+    margin: 60px auto;
+}
+.about h2{
+    text-align: center;
+}
+.about p{
+    text-align: center;
+}
+.third{
+    display: flex;
+    justify-content: space-around;
+}
+#whatt{
+    margin-left: 121px;
+    margin-right: 121px;
+}
+.what h2{
+    text-align: center;
+}
+.what p{
+    text-align: center;
+}
+.skills{
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-around;
+    margin-bottom: 71px;
+}
+.skill{
+    width: 221px;
+    padding: 21px;
+    box-shadow: 0px 6px 51px 0px rgba(0, 0, 0, 0.096);
+}
+.skill p{
+    text-align: justify;
+}
+.summ{
+    text-align: center;
+}
+.resume{
+    display: flex;
+    gap: 61px;
+}
+.item{
+    margin-top: 41px;
+}
+.education{
+    margin-left: 81px;
+}
+.exp{
+    margin-right: 81px;
+}
+.item h3,p,hr {
+    color: rgba(0, 0, 0, 0.443);
+}
+.btnn{
+    text-align: center;
+    margin-top: 35px;
+}
+.btnn button{
+    background-color: bisque;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 4px;
+}
+.columnn{
+    width: 50%;
+
+}
+.social a{
+    padding-right: 10px;
+}
+footer{
+    display: flex;
+    gap: 88px;
+    background-color: rgba(245, 245, 220, 0.317);
+    padding: 100px 200px;
+}
+form input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
